@@ -1,0 +1,64 @@
+/* .red-square{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+.color-box {
+    background-color: limegreen;
+    width: 100px;
+    height: 100px;
+  } */
+
+* {
+    box-sizing: border-box;
+}
+
+.calc{
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.screen{
+    color: white;
+    padding: 20px 5px;
+    font-size: 30px;
+    text-align: right;
+    border: 1px solid black;
+}
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.calc-button{
+    width: 24.5%;
+    height: 100px;
+    background-color: lightgray;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0;
+    text-align: center;
+    padding: 35px 5px;
+}
+
+.calc-button:last-child{
+    background-color: orange;
+    color: white;
+}
+
+.double{
+    width:49.7%;
+}
+.triple{
+    width: 74.8%;
+}
+
+.calc-button:hover {
+    background-color: #ebebeb;
+  }
+  
